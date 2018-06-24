@@ -1,0 +1,7 @@
+Caching Annotations
+    @Cacheable : Triggers cache population
+    @CachePut : Updates the cache, without interfering with the method execution
+    @CacheEvict : Triggers cache eviction[removing items from cache]
+    @Caching : Regroups multiple cache operations to be applied on a method
+    @CacheConfig : Shares some common cache-related settings at class-level
+    @EnableCaching : Configuration level annotation, enables Cache
